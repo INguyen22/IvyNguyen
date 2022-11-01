@@ -1,0 +1,15 @@
+.projectPage {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../Images/Museum_Nights_With_Her-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+.projectImage {
+    height: 40vh;
+    width: 40vw;
+}

@@ -10,13 +10,16 @@
     place-items: center;
     width: 72px;
     height: 72px;
-    background-image: url("./kirby-pink.png");
+    background: transparent;
+    background-image: url("../Images/menu.png");
+    background-size: 72px 72px;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   body.open .navbar-burger {
-    background-image: url("./paper2.png");
+    background-image: url("../Images/x.png");
+    background-size: 72px 72px;
   }
 
   .menu {
@@ -45,6 +48,11 @@
     color: #f9f9f9;
     font-size: 32px;
     font-family: "Euclid Circular A";
+    text-decoration: none;
+  }
+
+  .navLink {
+    color: white;
     text-decoration: none;
   }
 
