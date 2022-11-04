@@ -10,17 +10,48 @@
     overflow-x: hidden;
 }
 
+.introduction {
+    display: flex;
+    text-align: center;
+    width: 85%;
+}
+
+.background {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    width: 85%;
+    height: 20%;
+}
+
+.offTime {
+    display: flex;
+    text-align: center;
+    width: 85%;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+  }
+
 .zoomImage {
-    height: 55%;
-    width: 20%;
+    height: 85%;
+    width: 35%;
+    float: right;
+    margin: 5px;
 }
 
 .pharmImage {
-    height: 55%;
-    width: 10%;
+    height: 105%;
+    width: 48%;
+    float: left;
+    margin: 5px;
 }
 
 .escapeImage {
-    height: 65%;
-    width: 30%;
+    height: 100%;
+    width: 32%;
+    float: right;
+    margin: 5px;
 }
