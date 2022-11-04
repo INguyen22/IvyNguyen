@@ -15,6 +15,7 @@
     background-size: 72px 72px;
     background-repeat: no-repeat;
     background-position: center;
+    border: none;
   }
 
   body.open .navbar-burger {
@@ -43,13 +44,6 @@
     opacity: 1;
     visibility: visible;
   }
-  
-  /* .linkButton {
-    background-color: transparent;
-    color: white;
-    text-decoration: none;
-    font-size: 32px;
-  } */
 
   .menu > .a {
     color: #f9f9f9;

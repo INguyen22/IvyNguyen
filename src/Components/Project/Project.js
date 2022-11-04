@@ -8,17 +8,19 @@ const Project = ({project}) => {
     const {title, githubLink, technologies, overview, wins, challenges, images } = project
 
     const info = (topic) => {
-        const details = topic.map(detail => <p className="sectionInfo" key={detail}>{detail}</p>)
+        const details = topic.map(detail => <p className="sectionInfo" key={detail}> * {detail}</p>)
         return details
     }
   return (
     <div className='projectPage'>
         <NavBar />
         <ProjectLinks />
-        <h1>{title}</h1>
-        <SocialIcon className="icons" url={githubLink} />
+        <div className='projectHeaderInfo'>
+            <h1 className='projectTitle'>{title}</h1>
+            <SocialIcon bgColor={"gold"} className="icons" url={githubLink} />
+        </div>
         <img className="projectImage" src={images[0].link} alt={title}/>
-        <h2>{technologies}</h2>
+        <h2 className='projectTech'>{technologies}</h2>
         <h3 className='sectionHeader'>Overview:</h3>
         <p className="sectionInfo" >{overview}</p>
         <h3 className='sectionHeader'>Wins:</h3>

@@ -1,6 +1,6 @@
 .projectLinksContainer {
-    position: fixed;
-    top: -2px;
+    position: absolute;
+    top: 20px;
 }
 
 .projectLink {

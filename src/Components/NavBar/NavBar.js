@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import "./NavBar.css"
 
 const NavBar = () => {
     const toggleMenu = () => {
-      console.log('toggle', document.body.classList)
         document.body.classList.toggle("open");
     }
 
