@@ -1,3 +1,8 @@
+.projectLinksContainer {
+    position: fixed;
+    top: -2px;
+}
+
 .projectLink {
     color: white;
     font-size: 24px;

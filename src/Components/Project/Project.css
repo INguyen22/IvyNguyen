@@ -7,9 +7,14 @@
     flex-direction: column;
     height: 100vh;
     color: white;
+    overflow-x: auto;
 }
 
 .projectImage {
     height: 40vh;
     width: 40vw;
+}
+
+.sectionHeader, .sectionInfo {
+    margin-bottom: 0%;
 }
