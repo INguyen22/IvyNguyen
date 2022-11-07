@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ivyNguyen/static/css/main.a7ca7a52.css",
+    "main.js": "/ivyNguyen/static/js/main.5003e830.js",
+    "static/js/787.1ed0c42c.chunk.js": "/ivyNguyen/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Screen Shot 2022-07-17 at 12.11.08 PM.png": "/ivyNguyen/static/media/Screen Shot 2022-07-17 at 12.11.08 PM.8f8c346212be545fb286.png",
+    "static/media/Museum_Nights_With_Her-1.png": "/ivyNguyen/static/media/Museum_Nights_With_Her-1.2f1c20754da373f35ea3.png",
+    "static/media/20221018_180042.png": "/ivyNguyen/static/media/20221018_180042.0e31d4ccbd06591250aa.png",
+    "static/media/Nguyen_resume.pdf": "/ivyNguyen/static/media/Nguyen_resume.e27523d9809b014caecd.pdf",
+    "static/media/1647539793814.jpg": "/ivyNguyen/static/media/1647539793814.49a7cc37079040deb45b.jpg",
+    "static/media/kirby.gif": "/ivyNguyen/static/media/kirby.448ef2ff13edcda863b9.gif",
+    "static/media/20220115_220301.jpg": "/ivyNguyen/static/media/20220115_220301.6a71d641b1598f648923.jpg",
+    "static/media/menu.png": "/ivyNguyen/static/media/menu.a32ef1aa4872b8036450.png",
+    "index.html": "/ivyNguyen/index.html",
+    "main.a7ca7a52.css.map": "/ivyNguyen/static/css/main.a7ca7a52.css.map",
+    "main.5003e830.js.map": "/ivyNguyen/static/js/main.5003e830.js.map",
+    "787.1ed0c42c.chunk.js.map": "/ivyNguyen/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ca7a52.css",
+    "static/js/main.5003e830.js"
+  ]
+}
