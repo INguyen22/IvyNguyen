@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectLinks from '../ProjectLinks/ProjectLinks'
 import NavBar from '../NavBar/NavBar'
 import { SocialIcon } from 'react-social-icons';
+import HomeNav from '../HomeNav/HomeNav';
 import "./Project.css"
 
 const Project = ({project}) => {
@@ -13,6 +14,7 @@ const Project = ({project}) => {
     }
   return (
     <div className='projectPage'>
+        <HomeNav />
         <NavBar />
         <ProjectLinks />
         <div className='projectHeaderInfo'>

@@ -1,0 +1,13 @@
+.homeNav {
+    background-color: #1E90F0;
+    font-size: 44px;
+    border-radius: 50px;
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+
+.homeText {
+    color: #FFA;
+    text-decoration: none;
+}
