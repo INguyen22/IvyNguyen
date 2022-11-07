@@ -16,7 +16,7 @@ const Homepage = () => {
             <SocialIcon bgColor={"gold"} className="icons" url="https://github.com/INguyen22" />
             <a href={pdf}><button className="icons" id='resume'>Resume</button></a>
         </div>
-        <p className='intro'>Hi! My name is Ivy and I am a gamer, foodie, and Software Developer with a focus on Front-End tech</p>
+        <p className='intro'>Hi! My name is Ivy and I am a Gamer, Foodie, and Software Developer too with a focus on Front-End tech</p>
     </div>
   )
 }
