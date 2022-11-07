@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import "./NavBar.css"
 
@@ -11,10 +11,9 @@ const NavBar = () => {
     <div>
         <button className="navbar-burger" onClick={() => toggleMenu()}></button>
         <nav className="menu">
-            <Link to={`/`} className="a" style={{animationDelay: `0.1s`}}>Home</Link>
-            <Link to={`/projects`} className="a" style={{animationDelay: `0.2s`}}>Projects</Link>
-            <Link to={`/`} className="a" style={{animationDelay: `0.3s`}}>About</Link>
-            <Link to={`/`} className="a" style={{animationDelay: `0.4s`}}>Contact</Link>
+          <button className="a" style={{animationDelay: `0.1s`}} onClick={() => toggleMenu()}><Link to={`/`} className="links" >Home</Link></button>
+          <button className="a" style={{animationDelay: `0.2s`}} onClick={() => toggleMenu()}><Link to={`/projects`} className="links" >Projects</Link></button>
+          <button className="a" style={{animationDelay: `0.3s`}} onClick={() => toggleMenu()}><Link to={`/aboutMe`} className="links" >About Me</Link></button>
         </nav>
     </div>
   )

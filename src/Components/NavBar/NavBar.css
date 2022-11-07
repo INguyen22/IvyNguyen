@@ -15,6 +15,7 @@
     background-size: 72px 72px;
     background-repeat: no-repeat;
     background-position: center;
+    border: none;
   }
 
   body.open .navbar-burger {
@@ -44,21 +45,24 @@
     visibility: visible;
   }
 
-  .menu > a {
+  .menu > .a {
     color: #f9f9f9;
+    border: none;
     font-size: 32px;
     font-family: "Euclid Circular A";
     text-decoration: none;
+    background-color: transparent;
   }
 
-  .navLink {
+  .links {
     color: white;
     text-decoration: none;
   }
 
-  body.open .menu > a {
+  body.open .menu > .a {
     animation: appear 0.3s both;
   }
+
 
   @keyframes appear {
     0% {

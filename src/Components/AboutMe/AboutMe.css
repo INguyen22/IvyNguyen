@@ -1,0 +1,66 @@
+.aboutMePage {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../Images/Museum_Nights_With_Her-1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+.introduction {
+    display: flex;
+    text-align: center;
+    width: 85%;
+    border-bottom: 2px;
+    border-color: white;
+    border-bottom-style: groove;
+}
+
+.background {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    width: 85%;
+    height: 29%;
+    border-bottom: 2px;
+    border-color: white;
+    border-bottom-style: groove;
+}
+
+.offTime {
+    display: flex;
+    text-align: center;
+    width: 85%;
+    border-bottom: 2px;
+    border-color: white;
+    border-bottom-style: groove;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+.zoomImage {
+    height: 85%;
+    width: 35%;
+    float: right;
+    margin: 5px;
+}
+
+.pharmImage {
+    height: 93%;
+    width: 48%;
+    float: left;
+    margin: 5px;
+}
+
+.escapeImage {
+    height: 91%;
+    width: 32%;
+    float: right;
+    margin: 5px;
+}

@@ -12,7 +12,7 @@
 .portfolioImage {
     height: 200px;
     width: 180px;
-    clip-path: circle(50%);
+    clip-path: circle(45%);
 }
 
 #resume {
@@ -33,7 +33,7 @@
 }
 
 .icons {
-  padding: 0px 15px
+  margin: 0px 15px;
 }
 
 .icons:hover {
