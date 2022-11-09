@@ -41,26 +41,26 @@
 
 p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
   }
 
 .zoomImage {
-    height: 85%;
-    width: 35%;
+    height: 197px;
+    width: 432px;
     float: right;
     margin: 5px;
 }
 
 .pharmImage {
-    height: 93%;
-    width: 48%;
+    height: 238px;
+    width: 145px;
     float: left;
     margin: 5px;
 }
 
 .escapeImage {
-    height: 91%;
-    width: 32%;
+    height: 213px;
+    width: 413px;
     float: right;
     margin: 5px;
 }

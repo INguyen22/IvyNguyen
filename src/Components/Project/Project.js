@@ -2,7 +2,6 @@ import React from 'react'
 import ProjectLinks from '../ProjectLinks/ProjectLinks'
 import NavBar from '../NavBar/NavBar'
 import { SocialIcon } from 'react-social-icons';
-import HomeNav from '../HomeNav/HomeNav';
 import "./Project.css"
 
 const Project = ({project}) => {
@@ -14,8 +13,8 @@ const Project = ({project}) => {
     }
   return (
     <div className='projectPage'>
-        <HomeNav />
         <NavBar />
+        <div className='projectContent'>
         <ProjectLinks />
         <div className='projectHeaderInfo'>
             <h1 className='projectTitle'>{title}</h1>
@@ -24,7 +23,9 @@ const Project = ({project}) => {
         <img className="projectImage" src={images[0].link} alt={title}/>
         <h2 className='projectTech'>{technologies}</h2>
         <h3 className='sectionHeader'>Overview:</h3>
-        <p className="sectionInfo" >{overview}</p>
+        <div className='infoContainer'>
+            <p className="sectionInfo" >{overview}</p>
+        </div>
         <h3 className='sectionHeader'>Wins:</h3>
         <div className='infoContainer'>
             {info(wins)}
@@ -32,6 +33,7 @@ const Project = ({project}) => {
         <h3 className='sectionHeader'>Challenges:</h3>
         <div className='infoContainer'>
             {info(challenges)}
+        </div>
         </div>
     </div>
   )

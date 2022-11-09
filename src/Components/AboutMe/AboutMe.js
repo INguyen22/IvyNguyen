@@ -3,13 +3,11 @@ import NavBar from '../NavBar/NavBar'
 import zoom from "../Images/Screen Shot 2022-07-17 at 12.11.08 PM.png"
 import pharm from "../Images/20220115_220301.jpg"
 import fun from "../Images/1647539793814.jpg"
-import HomeNav from '../HomeNav/HomeNav'
 import "./AboutMe.css"
 
 const AboutMe = () => {
   return (
     <div className='aboutMePage'>
-        <HomeNav />
         <NavBar />
         <h1>About Me</h1>
         <div className='introduction'>
