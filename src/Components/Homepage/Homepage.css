@@ -18,13 +18,17 @@
 #resume {
     height: 50px;
     width: 90px;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 10px;
     color: white;
     border-color: white;
     background-color: transparent;
     border-style: groove;
     cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .iconContainer {
