@@ -20,3 +20,11 @@
     height: 20%;
     width: 15%;
 }
+
+@media (width < 500px) {
+    .projectsLinkBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

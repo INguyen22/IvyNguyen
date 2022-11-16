@@ -10,9 +10,16 @@
     overflow-x: hidden;
 }
 
+.aboutContent {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .introduction {
     display: flex;
-    text-align: center;
+    align-items: center;
     width: 85%;
     border-bottom: 2px;
     border-color: white;
@@ -22,9 +29,9 @@
 .background {
     display: flex;
     flex-direction: row-reverse;
-    text-align: center;
     width: 85%;
-    height: 29%;
+    height: 33%;
+    align-items: center;
     border-bottom: 2px;
     border-color: white;
     border-bottom-style: groove;
@@ -32,7 +39,7 @@
 
 .offTime {
     display: flex;
-    text-align: center;
+    align-items: center;
     width: 85%;
     border-bottom: 2px;
     border-color: white;
@@ -64,3 +71,35 @@ p {
     float: right;
     margin: 5px;
 }
+
+@media (width < 500px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        border-bottom: 2px;
+        border-color: white;
+        border-bottom-style: groove;
+    }
+
+    .background {
+        display: flex;
+        width: 85%;
+        height: 60%;
+        align-items: center;
+        border-bottom: 2px;
+        border-color: white;
+        border-bottom-style: groove;
+    }
+
+    .offTime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        border-bottom: 2px;
+        border-color: white;
+        border-bottom-style: groove;
+    }
+  }

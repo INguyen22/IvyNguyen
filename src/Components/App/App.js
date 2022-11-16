@@ -7,7 +7,7 @@ import { projectData } from "../../assets/project-info"
 import { Route } from 'react-router-dom';
 
 const App = () => {
-  console.log('data', projectData)
+  // console.log('data', projectData)
 
   const projectRoutes = (projects) => {
    return projects.map(project => <Route key={Math.random()} exact path={`/${project.path}/${project.title}`} render={() => <Project project={project}/>}/>)
