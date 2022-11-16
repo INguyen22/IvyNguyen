@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 
 .projectHeaderInfo {
@@ -39,3 +40,25 @@
     font-size: 17px;
     margin-bottom: 0%;
 }
+
+@media (width < 500px) {
+    .sectionInfo {
+        font-size: 15px;
+    }
+
+    .projectContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 45vh;
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 43%;
+        width: 92%;
+    }
+  }

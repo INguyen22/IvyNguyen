@@ -15,25 +15,25 @@ const Project = ({project}) => {
     <div className='projectPage'>
         <NavBar />
         <div className='projectContent'>
-        <ProjectLinks />
-        <div className='projectHeaderInfo'>
-            <h1 className='projectTitle'>{title}</h1>
-            <SocialIcon bgColor={"gold"} className="icons" url={githubLink} />
-        </div>
-        <img className="projectImage" src={images[0].link} alt={title}/>
-        <h2 className='projectTech'>{technologies}</h2>
-        <h3 className='sectionHeader'>Overview:</h3>
-        <div className='infoContainer'>
-            <p className="sectionInfo" >{overview}</p>
-        </div>
-        <h3 className='sectionHeader'>Wins:</h3>
-        <div className='infoContainer'>
-            {info(wins)}
-        </div>
-        <h3 className='sectionHeader'>Challenges:</h3>
-        <div className='infoContainer'>
-            {info(challenges)}
-        </div>
+            <ProjectLinks />
+            <div className='projectHeaderInfo'>
+                <h1 className='projectTitle'>{title}</h1>
+                <SocialIcon bgColor={"gold"} className="icons" url={githubLink} />
+            </div>
+            <img className="projectImage" src={images[0].link} alt={title}/>
+            <h2 className='projectTech'>{technologies}</h2>
+            <h3 className='sectionHeader'>Overview:</h3>
+            <div className='infoContainer'>
+                <p className="sectionInfo" >{overview}</p>
+            </div>
+            <h3 className='sectionHeader'>Wins:</h3>
+            <div className='infoContainer'>
+                {info(wins)}
+            </div>
+            <h3 className='sectionHeader'>Challenges:</h3>
+            <div className='infoContainer'>
+                {info(challenges)}
+            </div>
         </div>
     </div>
   )
