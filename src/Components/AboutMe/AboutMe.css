@@ -102,4 +102,9 @@ p {
         border-color: white;
         border-bottom-style: groove;
     }
+
+    p {
+        text-align: justify;
+        font-size: 15px;
+      }
   }
