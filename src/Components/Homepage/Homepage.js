@@ -1,6 +1,6 @@
 import React from 'react'
 import ivy from "../Images/20221018_180042.png"
-import pdf from "../Images/Nguyen_resume.pdf"
+import pdf from "../Images/Ivy-V-Nguyen-Resume.pdf"
 import { SocialIcon } from 'react-social-icons';
 import NavBar from '../NavBar/NavBar';
 import "./Homepage.css"
